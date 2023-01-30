@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation       This file contains test cases related to valid login
 
-Resource    ../Resource/Base/Common_Functionalities.Resource
+Resource     ../Resource/Base/Common_Functionalities.Resource
 
 Library     DataDriver      file=../Test_Data/Caption_Project.xlsx      sheet_name=Valid_Login
 

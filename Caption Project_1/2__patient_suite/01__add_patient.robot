@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation       This file contains test cases for add valid patient
 
-Resource    ../Resource/Base/Common_Functionalities.Resource
+Resource      ../Resource/Base/Common_Functionalities.Resource
 
 Library     DataDriver      file=../Test_Data/Caption_Project.xlsx      sheet_name=Patient_Details
 Test Setup      Launch Browser and Navigate To Url
