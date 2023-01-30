@@ -38,6 +38,5 @@ add valid patient tamplate
     Sleep    15s
     ${alert_text}    Handle Alert   action=ACCEPT
     Log To Console     ${alert_text}
-    Click Element    xpath=//div[@class='closeDlgIframe']
     Select Frame    xpath=//iframe[@name='pat']
     Element Should Contain    xpath=//h2[contains(text(),'Medical Record Dashboard')]       ${expected_data}
